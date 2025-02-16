@@ -40,7 +40,7 @@ function Hero() {
           <br />
           Chirakitpat
         </h1>
-        <h2>Full Stack Developer</h2>
+        <h2>Full-Stack Web Developer</h2>
         <span>
           <a href="https://twitter.com/" target="_blank">
             <img src={twitterIcon} alt="Twitter icon" />
@@ -53,8 +53,7 @@ function Hero() {
           </a>
         </span>
         <p className={styles.description}>
-          With a passion for developing modern React web apps for commercial
-          businesses.
+          With a passion for developing modern React web apps for commercial businesses.
         </p>
         <a href={CV} download>
           <button className="hover">Resume</button>
