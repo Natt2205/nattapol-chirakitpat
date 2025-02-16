@@ -33,6 +33,18 @@ function Skills() {
         <SkillList src={checkMarkIcon} skill="Jest" />
         <SkillList src={checkMarkIcon} skill="Bootstrap" />
       </div>
+      <hr />
+      <div className={styles.skillList}>
+        <SkillList src={checkMarkIcon} skill="Electronic Security" />
+        <SkillList src={checkMarkIcon} skill="EAS,ESL & RFID" />
+        <SkillList src={checkMarkIcon} skill="Visitor Analysis" />
+      </div>
+      <hr />
+      <div className={styles.skillList}>
+        <SkillList src={checkMarkIcon} skill="API Integration" />
+        <SkillList src={checkMarkIcon} skill="Cyber Security" />
+        <SkillList src={checkMarkIcon} skill="Project Management" />
+      </div>
     </section>
   );
 }
