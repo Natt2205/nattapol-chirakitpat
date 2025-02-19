@@ -1,8 +1,8 @@
 import styles from './ProjectsStyles.module.css';
-import viberr from '../../assets/viberr.png';
-import freshBurger from '../../assets/fresh-burger.png';
-import hipsster from '../../assets/hipsster.png';
-import fitLift from '../../assets/fitlift.png';
+import pro01 from '../../assets/pro01.png';
+import pro02 from '../../assets/pro02.png';
+import pro03 from '../../assets/pro03.png';
+import pro04 from '../../assets/pro04.png';
 import ProjectCard from '../../common/ProjectCard';
 
 function Projects() {
@@ -11,25 +11,25 @@ function Projects() {
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
-          src={viberr}
+          src={pro01}
           link="https://www.facebook.com/nattapol.chirakitpat"
           h3="Artificial intelligence"
           p="AI App"
         />
         <ProjectCard
-          src={freshBurger}
+          src={pro02}
           link="https://www.facebook.com/nattapol.chirakitpat"
           h3="System Security"
           p="Surveilance"
         />
         <ProjectCard
-          src={hipsster}
+          src={pro03}
           link="https://www.facebook.com/nattapol.chirakitpat"
           h3="Internet Security"
           p="Network"
         />
         <ProjectCard
-          src={fitLift}
+          src={pro04}
           link="https://www.instagram.com/nattart_near/"
           h3="Cyber Security"
           p="Software"
